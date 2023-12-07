@@ -81,13 +81,22 @@ WSGI_APPLICATION = 'proyecto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_proyecto_backend',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'NAME': 'bp7qgivbpkzcsbecfdyk',
+        'USER': 'u1cedfchljhlsbk1',
+        'PASSWORD': 'lhasIVKErpE6XSIhQwPW',
+        'HOST': 'bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com',
         'PORT': '3306',
     }
 }
+# MYSQL_ADDON_HOST=bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com
+# MYSQL_ADDON_DB=bp7qgivbpkzcsbecfdyk
+# MYSQL_ADDON_USER=u1cedfchljhlsbk1
+# MYSQL_ADDON_PORT=3306
+# MYSQL_ADDON_PASSWORD=lhasIVKErpE6XSIhQwPW
+# MYSQL_ADDON_URI=mysql://u1cedfchljhlsbk1:lhasIVKErpE6XSIhQwPW@bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com:3306/bp7qgivbpkzcsbecfdyk
+# Host
+# bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com
+# Database Name
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -135,10 +144,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # MEDIA_URL = '/media/'
           
+          
 cloudinary.config( 
-  cloud_name = "deskg6uru", 
-  api_key = "636214487824196", 
-  api_secret = "I9m0c8yWct-Sa1CHKhOgwmvg4cs" 
+  cloud_name = "dbighmwmt", 
+  api_key = "374965639126199", 
+  api_secret = "mLTXWa2xh_Sj2sDXeyL-AbnrWwE" 
 )
 
 PAYPAL_TEST = True
