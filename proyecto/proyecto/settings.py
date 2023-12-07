@@ -145,9 +145,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
           
           
 cloudinary.config( 
-  cloud_name = "dbighmwmt", 
-  api_key = "374965639126199", 
-  api_secret = "mLTXWa2xh_Sj2sDXeyL-AbnrWwE" 
+  cloud_name = "deskg6uru", 
+  api_key = "636214487824196", 
+  api_secret = "I9m0c8yWct-Sa1CHKhOgwmvg4cs" 
 )
 
 PAYPAL_TEST = True
