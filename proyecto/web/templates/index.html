@@ -1,0 +1,167 @@
+{% extends 'layout.html' %}
+{% block content %}
+{% load static %}
+<div id="page" class="site">
+    <div id="content" class="site-content">
+        <div id="primary" class="content-area width-full">
+            <main id="main" class="site-main">
+                <div class="maincont page-styling page-full">
+
+                    <div class="heroblock">
+                        <div class="page-styling row-wrap-full contacts-page-map" style="margin-top: 20px;">
+                            <video autoplay muted loop width="100%" allowfullscreen>
+                                <source
+                                src="https://www.dropbox.com/scl/fi/s8ca3cdrs77y5n856x7px/joyeria.mp4?rlkey=uhfs5b6favjb6sp53qxd8ulk1&dl=1"
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <p class="heroblock-subttl"><a href="{% url 'web:shop' 1 %}">Tienda</a></p>
+                    </div>
+                    <h1 class="categorias">Categorias</h1>
+                    <div class="row prod-items prod-items-2">
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 2 %}">
+                                        <img src="https://i.postimg.cc/YqQTN8t2/Pulseras.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Pulseras</h2>
+                                </div>
+                            </div>
+                        </article>      
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 4 %}">
+                                        <img src="https://i.postimg.cc/1zRx36hm/Anillos.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Anillo</h2>
+                                </div>
+                            </div>
+                        </article>  
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 1 %}">
+                                        <img src="https://i.postimg.cc/JngSx2y0/Collares.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Collares</h2>
+                                </div>
+                            </div>
+                        </article>  
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 5 %}">
+                                        <img src="https://i.postimg.cc/SR6V9TCw/Reloj.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Relojes</h2>
+                                </div>
+                            </div>
+                        </article>  
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 7 %}">
+                                        <img src="https://i.postimg.cc/tCsL1yM6/Dijes.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Diges</h2>
+                                </div>
+                            </div>
+                        </article>  
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 6 %}">
+                                        <img src="https://i.postimg.cc/GmywfrPR/Gemelos.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Gemelos</h2>
+                                </div>
+                            </div>
+                        </article> 
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 6 %}">
+                                        <img src="https://i.postimg.cc/qv8Dn7XN/Aretes.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Aretes</h2>
+                                </div>
+                            </div>
+                        </article>   
+                        <article class="cf-sm-6 cf-md-6 cf-lg-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 sectgl-item">
+                            <div class="sectgl prod-i">
+                                <div class="prod-i-top">
+                                    <a class="prod-i-img" href="{% url 'web:categoria' 6 %}">
+                                        <img src="https://i.postimg.cc/PxMfpT0S/oferta.jpg" alt="">
+                                    </a>
+                                    <h2 class="prod-i-ttl">Ofertas</h2>
+                                </div>
+                            </div>
+                        </article>   
+                    </div>
+                    <p class="special-more">
+                        <a class="special-more-btn" href="{% url 'web:galeria' %}">Mostrar Mas Productos</a>
+                    </p>
+                </div>
+                <div class="page-styling row-wrap-full front-image-half">
+                    <section class="image-half image-half-right">
+                        <div class="image-half-img" style="background-image: url(../static/img/calidad.jpg);">
+                            <img src="http://placehold.it/1006x498" alt="">
+                        </div>
+                        <div class="cont image-half-cont">
+                            <div class="image-half-inner">
+                                <h2>Calidad</h2>
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <p>
+                                            Antes de que una pieza de joyería pueda llevar el nombre de Encanto
+                                            Finos debe pasar una rigurosa serie de inspecciones. Usted
+                                            tiene altos estándares, por lo que los nuestros son aún más altos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="page-styling row-wrap-full front-image-half">
+                    <section class="image-half image-half-left">
+                        <div class="image-half-img" style="background-image: url(../static/img/arte.png);">
+                            <img src="http://placehold.it/1006x498" alt="">
+                        </div>
+                        <div class="cont image-half-cont">
+                            <div class="image-half-inner">
+                                <h2>ARTE</h2>
+                                <p>
+                                    Fabricamos todo tipo de joyas de oro personalizados según estándares de
+                                    calidad exigentes y un gemólogo experto inspecciona todas las joyas de
+                                    diamantes antes de que lleguen a usted.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div class="modal-form" id="modal-form">
+        <form action="{% url 'web:senddata' %}" method="POST" class="">
+            {% csrf_token %}
+            <h4>Contáctanos</h4>
+            <input type="text" placeholder="Nombre" data-required="text" name="nombre">
+            <input type="email" placeholder="Correo" data-required="text" data-required-email="email" name="email">
+            <textarea placeholder="Mensaje" class="form-control" name="contenido" rows="10" required></textarea>
+            <input class="btn1" type="submit" value="Enviar" >
+        </form>
+    </div>
+    <script>
+        function enviarMensaje() {
+            alert('Mensaje enviado');
+        }
+    </script>
+</div>
+</div>
+{% endblock %}

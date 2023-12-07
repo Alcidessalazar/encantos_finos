@@ -1,0 +1,52 @@
+<div class="container-fluid blog-sb-widgets page-styling site-footer">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 widget align-center-tablet f-logo-wrap">
+            <a href="index.html" class="f-logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <button class="btn callback">Contáctanos</button>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-2 align-center-mobile widget">
+            <h3 class="widgettitle">Compania</h3>
+            <ul class="menu">
+                <li>
+                    <a href="{% url 'web:index' %}">Página principal</a>
+                </li>
+                <li>
+                    <a href="{% url 'web:about' %}">Nosotros</a>
+                </li>
+                <li>
+                    <a href="{% url 'web:contactanos' %}">Contáctanos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-2 align-center-mobile widget">
+            <h3 class="widgettitle">Tienda</h3>
+            <ul class="menu">
+                <li>
+                    <a href="{% url 'web:shop' 1 %}">Collares</a>
+                </li>
+                <li>
+                    <a href="{% url 'web:shop' 1 %}">Pulceras</a>
+                </li>
+                <li>
+                    <a href="{% url 'web:shop' 1 %}">Anillos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-2 align-center-mobile widget">
+            <h3 class="widgettitle">Cuenta</h3>
+            <ul class="menu">
+                <li>
+                    <a href="{% url 'web:galeria' %}">Mi Galeria</a>
+                </li>
+                <li>
+                    <a href="{% url 'web:carrito' %}">Carrito</a>
+                </li>
+                <li>
+                    <a href="{% url 'web:usuariologin' %}">Mi Cuenta</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

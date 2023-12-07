@@ -1,0 +1,7 @@
+django==3.2
+mysqlclient
+django-cors-headers
+Pillow
+cloudinary
+django-paypal
+django_admin_tailwind
