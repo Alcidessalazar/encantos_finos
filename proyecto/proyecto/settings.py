@@ -81,22 +81,21 @@ WSGI_APPLICATION = 'proyecto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bp7qgivbpkzcsbecfdyk',
-        'USER': 'u1cedfchljhlsbk1',
-        'PASSWORD': 'lhasIVKErpE6XSIhQwPW',
-        'HOST': 'bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com',
+        'NAME': 'baqrv3p4tfxyukcyunxu',
+        'USER': 'u6ggnono6gvw3q0n',
+        'PASSWORD': 'olqDu6qFxiH0oC5bfWMQ',
+        'HOST': 'baqrv3p4tfxyukcyunxu-mysql.services.clever-cloud.com',
         'PORT': '3306',
     }
 }
-# MYSQL_ADDON_HOST=bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com
-# MYSQL_ADDON_DB=bp7qgivbpkzcsbecfdyk
-# MYSQL_ADDON_USER=u1cedfchljhlsbk1
+
+# MYSQL_ADDON_HOST=baqrv3p4tfxyukcyunxu-mysql.services.clever-cloud.com
+# MYSQL_ADDON_DB=baqrv3p4tfxyukcyunxu
+# MYSQL_ADDON_USER=u6ggnono6gvw3q0n
 # MYSQL_ADDON_PORT=3306
-# MYSQL_ADDON_PASSWORD=lhasIVKErpE6XSIhQwPW
-# MYSQL_ADDON_URI=mysql://u1cedfchljhlsbk1:lhasIVKErpE6XSIhQwPW@bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com:3306/bp7qgivbpkzcsbecfdyk
-# Host
-# bp7qgivbpkzcsbecfdyk-mysql.services.clever-cloud.com
-# Database Name
+# MYSQL_ADDON_PASSWORD=olqDu6qFxiH0oC5bfWMQ
+# MYSQL_ADDON_URI=mysql://u6ggnono6gvw3q0n:olqDu6qFxiH0oC5bfWMQ@baqrv3p4tfxyukcyunxu-mysql.services.clever-cloud.com:3306/baqrv3p4tfxyukcyunxu
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
